@@ -1,0 +1,645 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  background-color: #201f1f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 5% 0px 5%;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav-menu li a:hover {
+  text-decoration: none;
+  color: #96192c;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.7s;
+}
+
+.nav-menu {
+  margin-left: 50px;
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 48px;
+}
+
+.nav-menu ul li {
+  display: flex;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+/* Home */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text {
+  margin-left: 10%;
+  margin-top: 228px;
+}
+
+.hero-text h1 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 3.1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 80%;
+  margin-bottom: 24px;
+}
+
+.hero-text h2 {
+  color: #96192c;
+  font-family: "Kanit", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.hero-text p {
+  font-family: "Plus jakarta sans", sans-serif;
+  width: 80%;
+  font-size: 1.7rem;
+  color: var(--text, #9e9e9e);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  margin-bottom: 24px;
+}
+
+.hero-img {
+  margin-right: 196px;
+  margin-top: 104px;
+}
+
+.hero-img img {
+  width: 692.71px;
+  height: 805px;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero-btn img {
+  width: 32px;
+  height: 32px;
+}
+
+.home__button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 27px;
+  background-color: #96192c;
+  color: #fff;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.home__icon {
+  font-size: 32px;
+  background-color: #96192c;
+}
+
+.home__button-name {
+  font-size: 1.5rem;
+  font-family: "Plus jakarta sans", sans-serif;
+  font-weight: 400;
+  background-color: #96192c;
+}
+
+/* My Portofolio */
+
+.judul-portofolio {
+  margin-top: 10%;
+}
+
+.judul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.judul h1 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.sub-judul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-judul p {
+  font-family: "Plus jakarta sans", sans-serif;
+  width: 80%;
+  font-size: 1.7rem;
+  color: var(--text, #9e9e9e);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: auto;
+  position: relative;
+  margin: auto 10%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  /* padding: 16px; */
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  fill: #96192c;
+}
+
+.arrow:hover {
+  stroke-opacity: 0.65;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #5a5a5a;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #ff3232;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#portofolio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 10%;
+  gap: 52px;
+}
+
+.slide-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 84px;
+}
+
+.slide-content h2 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.slide-content p {
+  font-family: "Plus jakarta sans", sans-serif;
+  width: 80%;
+  font-size: 1.7rem;
+  color: var(--text, #9e9e9e);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  margin-bottom: 24px;
+}
+
+/* QUALIFICATION */
+
+.nav-qualification {
+  display: flex;
+  justify-content: center;
+  margin: 80px auto 52px;
+}
+
+.qualification__button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 27px;
+  background-color: none;
+  color: #96192c;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.qualification__button svg {
+  stroke: #96192c;
+  width: 32px;
+  stroke-width: 2;
+}
+
+.qualification__button-name {
+  font-size: 1.5rem;
+  font-family: "Plus jakarta sans", sans-serif;
+  font-weight: 500;
+  background-color: none;
+}
+
+.qual-wrapper {
+  position: relative;
+  margin: 0 10% 200px;
+}
+
+.qual-wrapper .rectangle {
+  position: absolute;
+  top: -140px;
+  left: 70px;
+  width: 5%;
+}
+
+.qual-wrapper .polygon {
+  position: absolute;
+  bottom: -140px;
+  right: 70px;
+  width: 3%;
+  background: none;
+}
+
+.qual-line {
+  top: 9px;
+  position: absolute;
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #96192c;
+  color: #96192c;
+}
+
+.qual-circle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #96192c;
+  border-radius: 50%;
+}
+
+.qual-caption {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 10.89rem;
+  margin-top: 24px;
+}
+
+.caption h1 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.caption h3 {
+  color: #9e9e9e;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 35px */
+  margin-bottom: 12px;
+}
+
+.caption-1 .caption-cal {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  color: #424242;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.caption-2 .caption-cal {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+  color: #424242;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 60px;
+}
+
+.caption-3 .caption-cal {
+  display: flex;
+  gap: 24px;
+  justify-content: end;
+  align-items: center;
+  color: #424242;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.caption-2 {
+  text-align: center;
+  align-items: center;
+}
+
+.caption-3 {
+  text-align: right;
+}
+
+/* TOOLS & SKILLS */
+
+.tools-skil {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 10%;
+}
+
+.tools-skil img {
+  width: 150px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 67%;
+  }
+
+  .hero-img img {
+    width: 524.05px;
+    height: 609px;
+    position: relative;
+    margin-top: -70px;
+  }
+  .hero-text {
+    margin-top: 10%;
+  }
+  .qual-caption {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 0.1rem;
+    font-size: 70%;
+  }
+
+  .caption {
+    font-size: 52.5%;
+  }
+
+  .tools-skil img {
+    width: 130px;
+  }
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .hero-img img {
+    width: 450.05px;
+    height: 523px;
+    position: relative;
+  }
+  .container {
+    display: block;
+    align-items: center;
+  }
+
+  .slide-content {
+    display: block;
+  }
+
+  .slide-content h2 {
+    margin-top: 24px;
+  }
+
+  #hamburger-menu {
+    display: inline-block;
+    color: white;
+  }
+  .nav-menu ul {
+    display: none;
+  }
+  .home__button {
+    padding: 12px 24px;
+  }
+
+  .prev .arrow,
+  .next .arrow {
+    width: 75%;
+    height: 75%;
+  }
+  .prev,
+  .next {
+    position: absolute;
+    background: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mySlides {
+    position: relative;
+    min-width: 100%;
+    margin: 0 25px;
+  }
+
+  .qual-caption {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 0.1rem;
+  }
+
+  .caption {
+    font-size: 40%;
+  }
+
+  .caption h1 {
+    font-size: 37.5%;
+  }
+
+  .caption-2 .caption-cal {
+    margin: 0;
+  }
+
+  .tools-skil img {
+    width: 110px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .hero-img img {
+    width: 418.2px;
+    height: 486px;
+    position: inherit;
+    margin-left: -17%;
+  }
+  .home__icon {
+    width: 24px;
+    height: 24px;
+  }
+  .icon {
+    width: 24px;
+    width: 24px;
+  }
+
+  .mySlides {
+    position: relative;
+    min-width: 100%;
+    margin: 0 25px;
+  }
+
+  .content-img img {
+    width: 70%;
+  }
+
+  .home__button {
+    padding: 10px 22px;
+  }
+
+  .prev .arrow,
+  .next .arrow {
+    width: 50%;
+    height: 50%;
+  }
+  .prev,
+  .next {
+    background: none;
+    display: flex;
+    justify-content: center;
+  }
+  .qual-caption {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1rem;
+  }
+  .caption {
+    font-size: 32.5%;
+  }
+
+  .caption h1 {
+    font-size: 30%;
+  }
+
+  .caption-2 .caption-cal {
+    margin: 0;
+  }
+
+  .tools-skil img {
+    width: 20%;
+  }
+}
