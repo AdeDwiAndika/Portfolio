@@ -22,7 +22,7 @@
   text-decoration: none;
   color: white;
   font-family: "Kanit", sans-serif;
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -31,7 +31,7 @@
   text-decoration: none;
   color: #96192c;
   font-family: "Kanit", sans-serif;
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -64,13 +64,13 @@
 
 .hero-text {
   margin-left: 10%;
-  margin-top: 228px;
+  margin-top: 10%;
 }
 
 .hero-text h1 {
   color: white;
   font-family: "Kanit", sans-serif;
-  font-size: 3.1rem;
+  font-size: 2.2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -81,7 +81,7 @@
 .hero-text h2 {
   color: #96192c;
   font-family: "Kanit", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -91,7 +91,7 @@
 .hero-text p {
   font-family: "Plus jakarta sans", sans-serif;
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1rem;
   color: var(--text, #9e9e9e);
   font-style: normal;
   font-weight: 500;
@@ -100,13 +100,13 @@
 }
 
 .hero-img {
-  margin-right: 196px;
-  margin-top: 104px;
+  margin-right: 10%;
+  margin-top: 5%;
 }
 
 .hero-img img {
-  width: 692.71px;
-  height: 805px;
+  width: 450.05px;
+  height: 523px;
 }
 
 .hero-btn {
@@ -116,15 +116,15 @@
 }
 
 .hero-btn img {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 .home__button {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 16px 27px;
+  padding: 12px 24px;
   background-color: #96192c;
   color: #fff;
   cursor: pointer;
@@ -137,7 +137,7 @@
 }
 
 .home__button-name {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   font-family: "Plus jakarta sans", sans-serif;
   font-weight: 400;
   background-color: #96192c;
@@ -158,7 +158,7 @@
 .judul h1 {
   color: white;
   font-family: "Kanit", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -175,7 +175,7 @@
 .sub-judul p {
   font-family: "Plus jakarta sans", sans-serif;
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1rem;
   color: var(--text, #9e9e9e);
   font-style: normal;
   font-weight: 500;
@@ -224,26 +224,6 @@
   stroke-opacity: 0.65;
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -285,7 +265,7 @@
 .slide-content h2 {
   color: white;
   font-family: "Kanit", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -295,7 +275,7 @@
 .slide-content p {
   font-family: "Plus jakarta sans", sans-serif;
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1rem;
   color: var(--text, #9e9e9e);
   font-style: normal;
   font-weight: 500;
@@ -308,7 +288,7 @@
 .nav-qualification {
   display: flex;
   justify-content: center;
-  margin: 80px auto 52px;
+  margin: 52px auto 52px;
 }
 
 .qualification__button {
@@ -388,7 +368,7 @@
 .caption h1 {
   color: white;
   font-family: "Kanit", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -398,7 +378,7 @@
 .caption h3 {
   color: #9e9e9e;
   font-family: "Kanit", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 175%; /* 35px */
@@ -407,32 +387,32 @@
 
 .caption-1 .caption-cal {
   display: flex;
-  gap: 24px;
+  gap: 12px;
   align-items: center;
   color: #424242;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .caption-2 .caption-cal {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
+  gap: 12px;
   align-items: center;
   color: #424242;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 0 60px;
 }
 
 .caption-3 .caption-cal {
   display: flex;
-  gap: 24px;
+  gap: 12px;
   justify-content: end;
   align-items: center;
   color: #424242;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .caption-2 {
@@ -453,7 +433,7 @@
 }
 
 .tools-skil img {
-  width: 150px;
+  width: 130px;
 }
 
 @keyframes fade {
@@ -474,10 +454,9 @@
   }
 
   .hero-img img {
-    width: 524.05px;
-    height: 609px;
+    width: 403px;
+    height: 468.33px;
     position: relative;
-    margin-top: -70px;
   }
   .hero-text {
     margin-top: 10%;
@@ -506,9 +485,10 @@
   }
 
   .hero-img img {
-    width: 450.05px;
-    height: 523px;
+    width: 371px;
+    height: 431.14px;
     position: relative;
+    margin-top: 10px;
   }
   .container {
     display: block;
@@ -563,16 +543,12 @@
     font-size: 40%;
   }
 
-  .caption h1 {
-    font-size: 37.5%;
-  }
-
   .caption-2 .caption-cal {
     margin: 0;
   }
 
   .tools-skil img {
-    width: 110px;
+    width: 70px;
   }
 }
 
@@ -583,10 +559,9 @@
     font-size: 55%;
   }
   .hero-img img {
-    width: 418.2px;
-    height: 486px;
+    width: 357.11px;
+    height: 415px;
     position: inherit;
-    margin-left: -17%;
   }
   .home__icon {
     width: 24px;
