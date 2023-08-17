@@ -18,6 +18,11 @@
   padding: 50px 5% 0px 5%;
 }
 
+.logo img {
+  width: 134px;
+  height: 41px;
+}
+
 .nav-menu li a {
   text-decoration: none;
   color: white;
@@ -146,7 +151,7 @@
 /* My Portofolio */
 
 .judul-portofolio {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .judul {
