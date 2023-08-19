@@ -8,9 +8,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
+
+nav {
+  position: fixed;
+  display: block;
+  top: 0;
+}
 
 .nav {
   display: flex;
