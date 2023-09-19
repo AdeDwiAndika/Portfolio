@@ -8,7 +8,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  position: relative;
 }
 
 html {
@@ -18,7 +17,6 @@ html {
 /* Navbar */
 
 nav {
-  position: fixed;
   display: block;
   top: 0;
 }
@@ -351,11 +349,15 @@ nav {
   background: none;
 }
 
+.qual-wrap {
+  position: relative;
+}
+
 .qual-line {
-  top: 9px;
   position: absolute;
+  top: 7px;
   display: block;
-  height: 5px;
+  height: 10px;
   width: 100%;
   background-color: #96192c;
   color: #96192c;
