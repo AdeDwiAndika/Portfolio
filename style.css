@@ -726,7 +726,8 @@ footer {
   }
 
   .qual-line {
-    top: 6px;
+    top: 5px;
+    height: 6px;
   }
   .circle {
     width: 16px;
