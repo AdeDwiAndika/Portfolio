@@ -169,6 +169,11 @@ nav {
   justify-content: center;
 }
 
+.content-img img {
+  width: 300px;
+  height: 300px;
+}
+
 .judul h1 {
   color: white;
   font-family: "Kanit", sans-serif;
